@@ -1,1 +1,1 @@
-https://github.com/uscwebdev/itp104-submissions-laurenhungg/
+https://uscwebdev.github.io/itp104-submissions-laurenhungg/
