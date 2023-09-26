@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>lauren's calendar</title>
+	<style>
+		#body{
+            width: 600px;
+            background-color: papayawhip;
+			margin: auto;
+        }
+
+		#header{
+			background-image: url('img/fruit.jpeg');
+			background-size: cover;
+			background-position: center;
+			color: #FFF;
+			font-size: 1.5em;
+			text-align: center;
+			text-shadow: 0px 0px 10px #000;
+			height: 250px;
+			line-height: 250px;
+			
+		}
+
+		table{
+			border-collapse: collapse;
+			margin: auto;
+			width: 80%;
+			table-layout: fixed;
+		}
+
+		th{
+			text-align: center;
+			padding: 10px;
+			border: 1px solid whitesmoke;
+		}
+
+		td{
+			padding: 10px;
+			border: 1px solid whitesmoke;
+			vertical-align: 6px;
+			text-align: right;
+			vertical-align: top;
+			width: 50px;
+			height: 50px;
+		}
+
+		.gray{
+			color: gray;
+		}
+
+		#cake{
+			background-image: url('img/cake.jpg'); /* Add missing single quotes */
+			background-size: cover;
+			color: rgb(105, 10, 10);
+		}
+
+		#bread{
+			background-image: url(img/bread.jpg);
+			background-size: cover;
+			color: rgb(105, 10, 10);
+
+		}
+
+		#book{
+			background-image: url(img/book.png);
+			background-size: cover;
+			color: rgb(105, 10, 10);
+
+		}
+
+		.text{
+			color: rgba(30, 53, 3, 0.922);
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+<div id="body">
+	<div id="header">
+		<h1>april!</h1>
+	</div>
+	<table>
+		<tr>
+			<th>sun</th>
+			<th>mon</th>
+			<th>tues</th>
+			<th>wed</th>
+			<th>thu</th>
+			<th>fri</th>
+			<th>sat</th>
+		</tr>
+		<tr>
+			<td class="gray">31</td>
+			<td>1</td>
+			<td>2</td>
+			<td id="cake">3<div class="text">aliyah's birthday</div></td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+			<td id="bread">10<div class="text">bread day</div></td>
+			<td>11</td>
+			<td>12</td>
+			<td>13</td>
+		</tr>
+		<tr>
+			<td>14</td>
+			<td>15</td>
+			<td>16</td>
+			<td>17</td>
+			<td>18</td>
+			<td id="book">19<div class="text">book day</div></td>
+			<td>20</td>	
+		</tr>
+		<tr>
+			<td>21</td>
+			<td>22</td>
+			<td>23</td>
+			<td>24</td>
+			<td>25</td>
+			<td>26</td>
+			<td>27</td>	
+		</tr>
+		<tr>
+			<td>28</td>
+			<td>29</td>
+			<td>30</td>
+			<td class="gray">1</td>
+			<td class="gray">2</td>
+			<td class="gray">3</td>
+			<td class="gray">4</td>	
+		</tr>
+	</table>
+</div>
+</body>
+</html>
