@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+    <title>Gallery | Interests Page</title>
+
+    <link rel="stylesheet" href="shared.css">
+
+    <style>
+       h2{
+color: teal;
+}
+
+
+#header{
+background-color: lightblue;
+height: 350px;
+text-align: center;
+line-height: 500px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 10px;
+
+
+background-image: url("img/fenn.jpeg");
+
+
+background-size: cover;
+background-position: center;
+
+
+Color: #fff;
+text-shadow: 0px 5px 20px #000;
+}
+
+       #layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0px 30px 10px;
+       }
+       #first {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+       }
+       .rec {
+        border: 2px solid palevioletred;
+        width: 456px;
+        height: 222px;
+        background-color: aliceblue;
+       }
+       #big {
+        border: 2px solid palevioletred;
+        width: 449.5px;
+        height: 500px;
+        flex-grow: 2;
+        background-color: aliceblue;
+       }
+       .long {
+        border: 2px solid palevioletred;
+        width: 214.75px;
+        height: 500px;
+        background-color: aliceblue;
+       }
+       #horiz {
+        border: 2px solid palevioletred;
+        width: 696px;
+        height: 254px;
+        background-color: aliceblue;
+        margin-left: auto;
+        margin-top: -278px;
+       }
+       #navbar{
+			background-color: lightblue;
+			height: 50px;
+			text-align: center;
+			line-height: 50px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 0px;	
+			margin-bottom: 5px;
+		 }	
+
+         #container{
+            width: 1018px;
+            background-color: #f5f4ce;
+            margin: auto; 
+            height:auto;
+         }
+         #footer{
+			background-color: lightblue;
+			text-align: center;
+			color: #fff;
+			height: 50px;
+			line-height: 50px;
+            margin-bottom: 10px;
+		 }
+         #navbar a {
+    text-decoration: none;
+    /* background-color: #FC0; */
+    /* 
+        600px / 4 = 150px per menu option
+    */
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+
+    text-align: center;
+
+    display: block;
+
+    color: #777;
+
+    border-bottom: 2px solid #FFF;
+}
+#navbar {
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 3px 5px #777;
+}
+
+#navbar a:hover, #navbar #highlight-nav {
+    color: palevioletred;
+    border-bottom: 4px solid palevioletred;
+}
+    </style>
+</head>
+<body>
+    <div id="body">
+    <div id="header">
+        <h1>Gallery</h1>
+    </div>
+    <!-- #header -->
+
+    <div id="navbar">
+        <a href="interestgallery.html">Home</a>
+        <a id="active-nav" href="photogallery.html">Gallery</a>
+    </div>
+
+    <div id="container">
+        <h2>Favorite Things To Bake</h2>
+        <div id="layout">
+            <div id="first">
+                <div class="rec"></div>
+                <div class="rec"></div>
+            </div>
+            <!-- first -->
+            <div class="long"></div>
+            <div id="big"></div>
+            <div class="long"></div>
+            <div class="long"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div id="horiz"></div>
+        </div>
+    </div>
+
+    <div id="footer">
+        University of Southern California &copy; 2023
+    </div>
+    <!-- #footer -->
+</div>
+<!-- #body -->
+</body>
+</html>
