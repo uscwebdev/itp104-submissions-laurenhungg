@@ -40,10 +40,6 @@
 }
 #navbar li {
     background-color: lightblue;
-    /* 
-        width of #main 720px;
-        720px / 4 = 180px;
-    */
     width: 180px;
     text-align: center;
     position: relative;
