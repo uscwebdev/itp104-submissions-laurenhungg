@@ -91,7 +91,7 @@
 
 body {
     /* Accomodate the height of navbar */
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 #footer{
@@ -105,12 +105,12 @@ body {
 
  #header{
     background-color: lightblue;
-    height: 450px;
+    height:515px;
     text-align: center;
-    line-height: 500px;
+    line-height: 515px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 10px;
+    margin-top: 0px;
 
     background-image: url("img/baking.webp");
 
@@ -119,4 +119,8 @@ body {
 
     Color: #fff;    
     text-shadow: 0px 5px 20px #000; 
+ }
+ #main{
+    padding: 10px;
+    padding-bottom: 50px;
  }
