@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<head>
+    <title>Gallery | Interests Page</title>
+
+    <link rel="stylesheet" href="shared.css">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+    <style>
+        @font-face {
+		
+        src: url('fonts/flower.ttf');
+    
+        font-family: "flower";
+    }
+       h2{
+    color: teal;    
+    font-family: 'Young Serif', serif;
+}
+    h1{
+			font-family: "flower", fantasy;
+			font-size: 2.5em;
+			font-weight: normal;
+		}
+
+
+
+#header{
+background-color: lightblue;
+height: 350px;
+text-align: center;
+line-height: 500px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 10px;
+
+
+background-image: url("img/fenn.jpeg");
+
+
+background-size: cover;
+background-position: center;
+
+
+Color: #fff;
+text-shadow: 0px 5px 20px #000;
+
+}
+
+#layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0px 30px 10px;
+       }
+       #first {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+       }
+       .rec {
+        width: 459.5px;
+        height: 222px;
+        overflow: hidden;
+		position: relative;
+        
+       }
+       #big {
+        width: 449.5px;
+        height: 500px;
+        flex-grow: 2;
+        overflow: hidden;
+		position: relative;
+       }
+       .long {
+        width: 214.75px;
+        height: 500px;
+        overflow: hidden;
+		position: relative;
+       }
+       #horiz {
+        width: 705px;
+        height: 256px;
+        margin-left: auto;
+        margin-top: -277px;
+        overflow: hidden;
+		position: relative;
+       }
+
+       .rec > img {
+        width: 100%;
+        height: auto;
+        position: relative;
+		top: -50px;
+       }
+
+       .long > img {
+        width: auto;
+        height: 100%;
+        position: relative;
+		left: -50px;
+       }
+
+       #big > img {
+        width: 100%;
+        height: auto;
+       }
+
+       .box > img {
+        width: 100%;
+        height: auto;
+       }
+       .box{
+        width:214.75px;
+        height: 222px;
+        flex-grow: 2;
+        overflow: hidden;
+        position: relative;
+       }
+
+       #horiz > img {
+        width: 100%;
+        height: auto;
+        position: relative;
+		top: -180px;
+       }
+
+       .rec > div {
+        background-color: rgba(0,0,0,0.6);
+        color: #FFF;
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+        text-align: center;
+        padding-top: 100px;
+        display: none;
+       }
+
+       .rec:hover > div {
+        display: block;
+       }
+
+       .long > div {
+        background-color: rgba(0,0,0,0.6);
+        color: #FFF;
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+        text-align: center;
+        padding-top: 240px;
+        display: none;
+       }
+
+       .long:hover > div {
+        display: block;
+       }
+
+       #big > div {
+        background-color: rgba(0,0,0,0.6);
+        color: #FFF;
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+        text-align: center;
+        padding-top: 240px;
+        display: none;
+       }
+
+       #big:hover > div {
+        display: block;
+       }
+
+       .box > div {
+        background-color: rgba(0,0,0,0.6);
+        color: #FFF;
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+        text-align: center;
+        padding-top: 100px;
+        display: none;
+       }
+
+       .box:hover > div {
+        display: block;
+       }
+
+       #horiz > div {
+        background-color: rgba(0,0,0,0.6);
+        color: #FFF;
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+
+        text-align: center;
+        padding-top: 115px;
+        display: none;
+       }
+
+       #horiz:hover > div {
+        display: block;
+       }
+
+       #container{
+        background-color: palevioletred;
+        width:1000px;
+        margin:auto;
+        padding:15px;
+       }
+
+    </style>
+</head>
+<body>
+    <div id="body">
+    <div id="header">
+        <h1>Gallery</h1>
+    </div>
+    <!-- #header -->
+
+    <div id="navbar">
+        <a href="interestgallery2.html">Home</a>
+        <a id="active-nav" href="photogallery2.html">Gallery</a>
+    </div>
+
+    <div id="container">
+        <h2>Things I Love Baking</h2>
+        <div id="layout">
+            <div id="first">
+                <div class="rec">
+                    <img src="img/muffin.jpeg" alt="Blueberry Muffin">
+                    <div>Blueberry Muffin</div>
+                </div>
+                   
+                <div class="rec">
+                    <img src="img/strawberrycheesecake.jpeg" alt="strawberry cheesecake">
+                    <div>Strawberry Cheesecake</div>
+                </div> 
+            </div>
+            <!-- first -->
+
+            <div class="long">
+                <img src="img/lemonloaf.jpeg" alt="Lemon Loaf">
+                <div>Lemon Loaf</div>
+            </div>
+                
+            <div id="big">
+                <img src="img/scones.png" alt="Scones">
+                <div>Scones</div>
+            </div>
+                
+            <div class="long">
+                <img src="img/cinnamon.jpeg" alt="cinnamon">
+                <div>Cinnamon</div>
+            </div>
+                
+            <div class="long">
+                <img src="img/strawberryshortcake.webp" alt="Strawberry Shortcake">
+                <div>Strawberry Shortcake</div>
+            </div>
+                
+            <div class="box">
+                <img src="img/pudding.jpeg" alt="Banana Pudding">
+                <div>Banana Pudding</div>
+            </div>
+                
+            <div class="box">
+                <img src="img/brownies.jpeg" alt="Brownies">
+                <div>Brownies</div>
+            </div>
+                
+            <div class="box">
+                <img src="img/tart.webp" alt="fruit tart">
+                <div>Fruit Tart</div>
+            </div>
+                
+            <div id="horiz">
+                <img src="img/souffle.jpeg" alt="Souffle">
+                <div>Chocolate Souffle</div>
+            </div>    
+        </div>
+    </div>
+
+    <div id="footer">
+        University of Southern California &copy; 2023
+    </div>
+    <!-- #footer -->
+</div>
+<!-- #body -->
+</body>
+</html>
