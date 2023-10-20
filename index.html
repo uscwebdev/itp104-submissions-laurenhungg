@@ -1,5 +1,15 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Meta Tag, Responsive Web Design</title>
+
+	<meta charset="utf-8">
+
+	<meta name="keywords" content="HTML, Homepage, Intro to Web Development, ITP 104">
+
+	<meta name="description" content="Student Homepage for ITP 104 Class">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
 <style>
@@ -8,7 +18,7 @@
         height: 200px
     }
     #content{
-        width: 600px;
+        width: auto ;
 		margin-left: auto;
 		margin-right: auto; 
 			background-color: lightpink;
@@ -17,7 +27,7 @@
 			border-right: 1px solid #000;
             border-top: 1px solid #000;
 			border-bottom: 1px solid #000;
-            height: 800px;
+            height: 700px;
 		}
 
         .parent1 {
@@ -26,14 +36,14 @@
             flex-flow: nowrap;
         }
         .child1{
-            width: 300px;
+            width: 400px;
             height: 330px;
             background-color:lightpink;
             text-align: left;
             color: black;
         }
         .child2{
-            width: 300px;
+            width: 400px;
             height: 330 px;
             background-color:lightpink;
             text-align: left;
@@ -45,20 +55,70 @@
             flex-flow: nowrap;
         }
         .child_1{
-            width: 300px;
+            width: 400px;
             height: 200px;
             background-color:lightpink;
             text-align: left;
             color: black;
         }
         .child_2{
-            width: 300px;
+            width: 400px;
             height: 200px;
             background-color:lightpink;
             text-align: left;
             color: black;
         }
+        @media (max-width: 991px) {
+			body {
+				background-color: lightpink;
+			}
+
+			#container {
+				width: auto;
+				flex-direction: column;
+				border: none;
+			}
+
+			#left, #right {
+				width: auto;
+				border: none;
+			}
+            .parent1, .parent2 {
+                display: flex;
+                flex-direction: column; 
+            }
+
+			#thumbnails {
+				justify-content: center;
+			}
+            
+    @media (max-width: 767px) {
+        body {
+                background-color: lightpink;
+            }
+            
+        .parent1, .parent2 {
+            flex-direction: column; 
+        }
+        .child1, .child2, .child_1, .child_2 {
+            Width: 100%; 
+        }
+
+        }
+		.child1, .child2, .child_1, .child_2 {
+            width: 100%; /* New: Make them full-width on mobile */
+            height: auto; /* Adjust height as needed */
+            background-color: lightpink;
+            text-align: left;
+            color: black;
+        }
+        #content{
+            height:auto;
+        }
+
 </style>
+</head>
+
 <div id="content">
     <head>
         <title>Lauren Hung | Student Page</title>

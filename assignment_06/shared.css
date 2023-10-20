@@ -27,6 +27,13 @@
 
     border-bottom: 4px solid palevioletred;
 }
+#navbar a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
 
 #navbar a:hover, #navbar #highlight-nav {
     color: palevioletred;
@@ -86,7 +93,7 @@
     box-shadow: 0px 3px 5px #777;
 }
 
-#navbar a.current {
+#navbar a.current { 
     font-weight: bold; /* Optionally, make the text bold */
     /* Add any other styling you prefer */
 }
