@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title> Good memories | Lab 10</title>
+
+    <style>
+        #costco {
+            background-size: cover;
+            width: auto;
+            height: 300px;
+            
+            position: absolute;
+            z-index: 3;
+            border: solid 5px pink;
+            transition: all 1s;
+        }
+
+        #rha {
+            background-size: cover;
+            width: auto;
+            height: 300px;
+            
+            position: absolute;
+            z-index: 2;
+
+            transform: rotate(5deg);
+            margin-left: 20px;
+            border: solid 5px pink;
+            transition: all 1s;
+        }
+
+        #bday{
+            background-size: cover;
+            width: 300px;
+            height: auto;
+            
+            position: absolute;
+            z-index: 1;
+
+            transform: rotate(15deg);
+            margin: 50px;
+            border: solid 5px pink;
+            transition: all 1s;
+        }
+
+        #container {
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 300px;
+            margin-top: 150px;
+        }
+
+       #container:hover #costco {
+            transform: scale(1.3) translateX(-100px) rotate(-20deg);
+       }
+
+       #container:hover #rha {
+            transform: scale(1.3) translateX(100px) rotate(25deg);
+       }
+
+       #container:hover #bday {
+            transform: scale(1.3) translate(300px) rotate(60deg);
+       }
+
+        body {
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img id="costco" src="img/costco.JPG" alt="shopping">
+        <img id="rha" src="img/rha.JPG" alt="trainstation">
+        <img id="bday" src="img/bday.JPG" alt="birthday">
+    </div>
+</body>
+</html>
