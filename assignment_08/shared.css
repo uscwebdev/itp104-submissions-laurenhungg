@@ -1,0 +1,127 @@
+	<link rel="stylesheet" href="shared.css">
+    #navbar{
+        background-color: lightblue;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;	
+        margin-bottom: 5px;
+     }	
+    
+    #navbar a {
+        text-decoration: none;
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+    
+        text-align: center;
+    
+        display: block;
+    
+        color: #777;
+    
+        border-bottom: 2px solid #FFF;
+    }
+    #navbar {
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 3px 5px #777;
+    }
+    
+    #navbar a:hover, #navbar #highlight-nav {
+        color: palevioletred;
+        border-bottom: 4px solid palevioletred;
+    }
+    #navbar ul {
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+    #navbar li {
+        background-color: lightblue;
+        /* 
+            width of #main 720px;
+            720px / 4 = 180px;
+        */
+        width: 180px;
+        text-align: center;
+        position: relative;
+    }
+    
+    #top-menu {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    
+    #navbar li:hover {
+        background-color: #f5f4ce;
+    }
+    
+    #navbar a {
+        color: #FFF;
+        text-decoration: none;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+    }
+    
+    #top-menu ul {
+        position: absolute;
+        display: none;
+    }
+    
+    #sub-menu ul {
+        top: 0px;
+        left: 180px;
+    }
+    
+    #navbar li:hover > ul {
+        display: block;
+    }
+    
+    
+    
+    #navbar {
+        display: flex;
+        justify-content: center;
+        box-shadow: 0px 3px 5px #777;
+    }
+    
+    body {
+        /* Accomodate the height of navbar */
+        padding-top: 0px;
+    }
+    
+    #footer{
+        background-color: lightblue;
+        text-align: center;
+        color: #fff;
+        height: 50px;
+        line-height: 50px;
+        margin-bottom: 10px;
+     }
+    
+     #header{
+        background-color: lightblue;
+        height:515px;
+        text-align: center;
+        line-height: 515px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    
+        background-image: url("img/baking.webp");
+    
+        background-size: cover;
+        background-position: center;
+    
+        Color: #fff;    
+        text-shadow: 0px 5px 20px #000; 
+     }
+     #main{
+        padding: 10px;
+        padding-bottom: 50px;
+     }

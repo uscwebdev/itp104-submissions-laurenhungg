@@ -1,0 +1,195 @@
+	<!DOCTYPE html>
+
+	<head>
+
+		<title>Lauren Hung | Hobbies</title>
+		
+		<style>
+			@font-face {
+			
+				src: url('fonts/flower.ttf');
+			
+				font-family: "flower";
+			}
+			h1{
+				font-family: "flower", fantasy;
+				font-size: 2.5em;
+				font-weight: normal;
+			}
+		
+			h2{
+				color: teal;
+				font-family: 'Young Serif', serif;
+			}
+
+				
+			#main {
+				background-color: #f5f4ce;
+				border: 1px solid lightblue;
+				padding: 15px;
+				
+			}
+
+		
+			#wrapper {
+				display: flex;
+				justify-content: center;
+				margin-left: auto;
+				margin-right: auto;
+				width: 1030px;
+				height: 1250px;
+			}
+
+			#sidebar {
+				background-color: pink;
+				width: 150px;
+				padding: 15px;
+				border: 2px solid lightblue;
+
+			}
+			
+			.thumbnail {
+				
+				height: auto;
+				margin: 5px;
+				border: 1px solid white;
+				width: 138px;
+			}
+
+
+			#baking_intro {
+				float: right;
+				height: 200px;
+				width:auto;
+				margin: 10px
+			}
+			#help_pic {
+				float: right;
+				height: 200px;
+				width:auto;
+				margin: 10px
+			}
+			#creativity_pic {
+				float: left;
+				height: 200px;
+				width:auto;
+				margin: 10px
+			}
+		
+			#inexpensive_pic {
+				float: right;
+				height: 200px;
+				width:auto;
+				margin: 10px
+			}
+			.thumbnail {
+				width: 140px;
+				height: auto;
+				margin: 5px;
+				opacity: 0.7; 
+			}
+
+			.thumbnail:hover {
+				opacity: 1.0;
+			}
+
+			.img-container > p {
+				text-align: center;
+				/* display: none; */
+				visibility: hidden;
+			}
+
+			/* .thumbnail + p:hover {} */
+
+			.thumbnail:hover + p {
+				/* display: block; */
+				visibility: visible;
+			}
+	/* #navbar > a {} */
+
+		</style>
+	</head>
+	<body>
+
+		<div id="header">
+			<h1><strong>Baking!</strong></h1>
+			
+		</div>
+		<!--#header-->
+		
+
+		<div id="navbar">
+			<ul id="top-menu">
+				<li>
+					<a id="highlight-nav" class="current" >Home</a>
+					<ul id="sub-menu">
+						<li><a href="interestgallery2.html#intro"> Introduction</a></li>
+						<li><a href="interestgallery2.html#reason1"> Reason #1</a></li>
+						<li><a href="interestgallery2.html#reason2"> Reason #2</a></li>
+						<li><a href="interestgallery2.html#reason3"> Reason #3</a></li>
+					</ul>
+				</li>
+				<li><a href="photogallery2.html">Gallery</a></li>
+			</ul>
+		</div> 
+
+		<div id="wrapper">
+			<div id="main">
+
+		<h2 id="intro">Introduction</h2>
+		<img id="baking_intro" src="img/bakingintro.jpeg" alt="bake">
+
+		<p>I'm obsessed with baking. Just a little.
+
+			Some of my earliest memories involve helping my sister in the kitchen. Sometimes our creations turned out well, we made cookies, cupcakes, even Boston cream pie. Sometimes we weren't so successful, just ask anyone in our family about the chocolate souffle, or the chocolate scrambled eggs as that infamous dessert became known..</p>
+
+		<p>The art of baking goes back many, many centuries and is one of the oldest cooking methods known to humans. Fast forward a few thousand years, to our DVRs and Netflix queues filled with episodes of new and exciting baking competitions. What makes this specific method of cooking just so special to billions of bakers around the world? Well, here are three reasons why baking is a great hobby. </p>
+
+		<h2 id="reason1">Reason #1: Baking is Relaxing</h2>
+		<img id="help_pic" src="img/help.webp" alt="bakinghelp">
+		<P>Baking can be relaxing when you really get into the motions of the process. Chopping, whisking, mixing, and sifting are simple, integral movements to baking that become comfortable and cathartic. Plus, it gets your mind off whatever may be bothering you and allows you to work out your frustrations: try punching a lump of dough a few times to release some pent-up stress! Of course, there’s nothing to cheer up a mood quite like the smile on a friend’s face when they see you’ve baked something for them!</P>
+
+		<p>Lets not forget how scent is the sense most closely related to emotion. Certain smells and flavors in the kitchen can evoke memories of moments locked deep inside your memory.  So next time you think of a leisurely break or find yourself bored, look up some 
+			<a target="_blank" href="https://lexisrose.com/5-baking-tips-for-beginners/">baking tips for beginners </a> and allow yourself to get into baking and experimenting in the kitchen. It can be a genuinely relaxing hobby if you take the time to learn.</p>
+			
+			<img id="creativity_pic" src="img/creativity.webp" alt="zooey">
+		<h2 id="reason2">Reason #2: Baking Increases Creativity </h2>
+		
+		<p>Baking is a simple creative process at first. Combine a few ingredients together, and—VOILA—a dish is created. However, as you become more advanced with baking, youll get to be more innovative with your bakes. You will start thinking of different ways to make your creations more aesthetically appealing. Baking pushes you to try out different combinations of ingredients to enhance the flavor of your pies, tarts, and cakes, or different styles of sculpting and weaving to achieve different lattice-patterned pies.</p>
+		<p> Lets not forget that, sometimes, baking makes you think on your feet to overcome obstacles like a small budget, inconvenient baking conditions, missing tools, or limited ingredients. Baking truly gets your creative juices running.</p>
+		
+		<img id="inexpensive_pic" src="img/inexpensive.webp" alt="help">
+		<h2 id="reason3">Reason #3: Baking Can Be A Rather Inexpensive Hobby</h2>
+		
+		<p>Unlike some hobbies, you can definitely bake on a budget. You don’t need to buy expensive, fancy gadgets or shop for extravagant, rare ingredients. In fact, most of the time, baking uses common, handy equipment that usually already resides in kitchen drawers.</p>
+		<p>With items such as measuring cups, wooden spoons, a whisk, baking pans, and just a little bit of arm strength and determination, you can bake close to anything. A combination of these is just enough for the simplest baking projects. Plus, in most cases, you can use generic baking ingredients like flour, leaveners, sugar, salt, flavorings, dairy, and spices. </p>
+	</div><!-- #main -->
+			<div id="sidebar">
+				<div class="img-container">
+					<img class="thumbnail" src="img/ccc.jpeg" alt="chocchipcookie">
+					<p> chocolate chip cookies </p>
+				</div>
+				<div class="img-container">
+					<img class="thumbnail" src="img/cinnamonrolls.webp" alt="cinnamonrolls">
+					<p> cinnamon rolls </p>
+				</div>
+					<div class="img-container">
+					<img class="thumbnail" src="img/whitechocras.jpeg" alt="scone">
+					<p> white chocolate raspberry scones </p>
+				</div>
+				<div class="img-container">
+					<img class="thumbnail" src="img/redvelvet.jpeg" alt="cupcake">
+					<p> red velvet cupcakes </p>
+				</div>
+				<div class="img-container">
+					<img class="thumbnail" src="img/lemonloaf.jpeg" alt="lemonloaf">
+					<p> lemon loaf </p>
+				</div>
+			</div>
+		</div>
+	<div id="footer"> University of Southern California &copy; 2018
+	</div>
+		<!--#footer-->
+
+	</body>
+	</html>			
