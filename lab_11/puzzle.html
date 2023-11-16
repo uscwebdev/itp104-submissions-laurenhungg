@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    h1{
+        text-align: center;
+        color: green;
+        font-size: xx-large;
+    }
+    #box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width:400px;
+            height: 708px;
+        margin: 0 auto;
+        
+    }
+    .images {
+    margin: 0; 
+    margin-bottom: 0; 
+    position: relative;
+    height: 100px; 
+    width: 200px;
+
+    }
+    .images > img {
+			height: auto;
+			width: 100%;
+		}
+
+        .images > .row-1 {
+            position: relative;
+            right: 30px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+		}
+
+		.images > .row-2 {
+            position: relative;
+		}
+
+        .images > .row-4 {
+            position: relative;
+            right: 30px;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+        }
+</style>    
+</head>
+	<body>
+		<div id="body">
+			<h1> Lauren's Puzzle </h1>
+        </div>
+        <div id="box">
+            <div class="images">
+                <img class="row-1" src="img/one.jpg" alt="miffy">
+            </div>
+            <div class="images">
+                <img  src="img/two.jpg" alt="dog">
+            </div>
+            <div class="images">
+                <img src="img/three.jpg" alt="cat">
+            </div>
+            <div class="images">
+                <img class="row-2" src="img/four.jpg" alt="stuff">
+            </div>
+            <div class="images">
+                <img  src="img/five.jpg" alt="hellokitty">
+            </div>
+            <div class="images">
+                <img class="row-3" src="img/six.jpg" alt="rillakuma">
+            </div>
+            <div class="images">
+                <img  src="img/seven.jpg" alt="sticker">
+            </div>
+            <div class="images">
+                <img  class="row-4" src="img/eight.jpg" alt="snoopy">
+            </div>
+
+        </div>
+         <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+    <script src="draggabilly/draggabilly.pkgd.min.js"></script>    
+
+    <script>
+        var $draggable = $('img').draggabilly({})
+    </script>
+    </body>
+</html>
