@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, Web Publishing, ITP">
+    <meta name="description" content="Lauren's final project for her ITP 104 class focused on showcasing her favoriting people and places. People featured include her family and friends. Places featured include Taiwan, South Africa, England, and America. The purpose of the website is to show the beauty in the people and places that surround you.  Discover the warmth of family and friends, and the enchanting landscapes of Taiwan, South Africa, England, and America. Join Lauren in celebrating the richness of life's experiences and the connections that shape our memories. After exploring this page Lauren hopes to help you see the beauty of love in your life. We often take our everyday life for granted and forget to appreciate those around us. In a three-page series discover Lauren's most favorite places and people.">
+    
+    <title>Lauren Hung | Final Project</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+   <style>
+
+        body {
+            background-color: #f0e4d8;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-size: 10vw;
+            writing-mode: vertical-rl;
+        }
+        #header-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        }
+        .one {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    width: 1200px;
+    height: 700px;
+}
+
+        #header {
+    margin-right: 10px; 
+}
+        h2{
+            font-family: 'Raleway', sans-serif;
+        }
+        h3{
+            font-family: 'Raleway', sans-serif;
+        }
+
+        #nav-bar {
+            background-color:#798fa8;
+            overflow: hidden;
+        }   
+
+        #nav-bar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #nav-bar li {
+            float: left;
+        }
+
+        #nav-bar a {
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        #nav-bar a:hover {
+            background-color: #eedc82;
+            color: #6c829b;
+        }
+
+        #main {
+            background-color: #d7b3b6;
+            border: 1px solid lightblue;
+            padding: 15px;
+        }
+
+        #wrapper {
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 1200px;
+            height: 700px;
+        }
+
+        #pic {
+            display: block;
+            height: 400px;
+            width: auto;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        
+
+        figcaption {    
+            color: black;
+            font-style: italic;
+            padding: 2px;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+        }
+    
+.one {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    flex-direction: row;
+}
+
+
+.pic {
+    width: 200px; 
+    height: auto; 
+    border: 2px solid #000000; 
+    border-radius: 8px; 
+    margin: 10px; 
+}
+
+
+figcaption {
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#poem {
+    width: 300px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+#poem-text {
+    flex: 1; 
+    font-family: 'Raleway', sans-serif;
+}
+
+    </style>
+</head>
+
+<body>
+
+    
+
+    <div id="nav-bar">
+        <ul>
+            <li><a href="finalpt1.html">Home</a></li>
+            <li><a href="people.html">People</a></li>
+            <li><a href="places.html">Places</a></li>
+        </ul>
+    </div>
+    <div class="one"> 
+    <div id="header-container">
+        <header id="header">
+            <h1><strong>People</strong></h1>
+        </header>
+    </div>
+
+    
+    <figure>
+    <img id="pic" src="img/moms.jpeg" alt="mom and grandma">
+    <figcaption>My Mom and Grandma: the strongest people I know </figcaption>
+    </figure>
+    <figure>
+        <img id="pic" src="img/sister.PNG" alt="photobooth">
+        <figcaption>My Sister: the person who I look up to most </figcaption>
+    </figure>
+    <figure>
+        <img id="pic" src="img/joshuatree.jpeg" alt="friends">
+        <figcaption>My Friends: the people who inspire me </figcaption>
+    </figure>
+    </div>
+    <div class="two">
+        <img id="poem" src="img/poem.png" alt="frostpoem">
+        <div id="poem-text">
+            <p>Juggling the intricacies of college life, where academic pursuits, work obligations, and nurturing friendships intertwine, presents a multifaceted challenge. In this dynamic environment, Robert Frost's timeless poem, "A Time to Talk," resounds as a poignant call to recognize the enduring importance of maintaining connections with loved ones. The vast geographical separation of 6,846 miles and a 15-hour time difference between my mother and me adds an extra layer of complexity, making it challenging to find those precious moments for quality interactions. Yet, the poem inspires a thoughtful reconsideration of priorities, encouraging the intentional carving out of time for meaningful connections despite the constraints imposed by distance and busy schedules.</p>
+        </div>
+    </div>
+    
+    </body>
+</html>
