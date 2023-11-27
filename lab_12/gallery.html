@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Lauren Hung | Gallery </title>
+	
+	<link rel="stylesheet" href="main.css">
+	
+	<style>
+		
+		#header{
+			background-color: palevioletred;
+			height: 100px;
+			text-align: center;
+			line-height: 100px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 10px;
+
+			Color: #fff;    
+			text-shadow: 0px 5px 20px black; 
+		 }
+
+         #images-section{
+            color: palevioletred;
+            text-align: center;
+         }
+
+
+		#gallery {
+			display: flex;  
+			align-items: flex-start;
+		}
+		.thumbnail {
+			width: 210px;
+			height: auto;   
+			margin: 40px;
+			opacity: 0.8; 
+            
+		}
+
+		.thumbnail:hover {
+			opacity: 1.0;   
+		}
+
+		.img-container > p {
+			text-align: center;
+			
+			visibility: hidden;
+		}
+
+		
+
+		.thumbnail:hover + p {
+			
+			visibility: visible;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div id="header">
+		<h1>Cats!</h1>
+	</div> <!-- #header -->
+
+
+		<h2 id="images-section">Image Gallery</h2>
+
+		<div id="gallery">
+
+			<div class="img-container">
+				<img class="thumbnail" src="img/collage.jpeg" alt="Cat Collage">
+				<p>Funky Cat Collage</p>
+			</div>
+			
+			<div class="img-container">
+				<img class="thumbnail" src="img/catburger.jpeg" alt="cat burger">
+				<p>Cat Burger</p>
+			</div>
+
+			<div class="img-container">
+				<img class="thumbnail" src="img/catrolllers.jpeg" alt="cat hairrollers">
+				<p>Cat With Hairrollers</p>
+			</div>
+
+			<div class="img-container">
+				<img class="thumbnail" src="img/sleepy.jpeg" alt="sleepy cat">
+				<p>Sleepy Cat</p>
+			</div>
+            <div class="img-container">
+				<img class="thumbnail" src="img/stickercat.jpeg" alt="sticker cat">
+				<p>Cat With Stickers</p>
+			</div>
+
+		</div> <!-- #gallery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+		<script>
+    $(document).ready(function () {
+        $('.thumbnail').click(function () {
+            
+            $('.thumbnail').css('border', 'none');
+
+           
+            $(this).css('border', '4px solid palevioletred');
+
+            
+        });
+    });
+</script>
+		</form>
+
+	</div> <!-- #main -->
+
+
+
+</body>
+</html>
