@@ -1,0 +1,42 @@
+
+
+   
+   
+   #nav-bar {
+        overflow: hidden;
+    }
+
+    #nav-bar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #nav-bar li {
+        float: left;
+    }
+
+    #nav-bar a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    #nav-bar a:hover {
+        background-color: #eedc82;
+        color: #6c829b;
+    }
+    h1 {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+    }
+    h2{
+        font-family: 'Raleway', sans-serif;
+    }
+    h3{
+        font-family: 'Raleway', sans-serif;
+    }

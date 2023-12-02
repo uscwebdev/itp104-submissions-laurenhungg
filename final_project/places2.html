@@ -1,0 +1,282 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS, Web Publishing, ITP">
+        <meta name="description" content="Second page of Lauren's final project for her ITP 104 class focused on showcasing her favorite people and places. The second page of her project shows some of the most influential people in Lauren's life. To highlight how these people have impacted Lauren she has chosen to showcase some of the best or most defining moments with the people. The people include her grandma and mom, sister, and her friends. Along with the people, the page includes Robert Frost's poem which describes how important it is to find time to nurture important connections even when you are busy. As an international college student finding time to stay in touch with her mom is challenging due to the distance and time difference, however Lauren knows its important to prioritize communicating with her.">
+        
+        <title>Lauren Hung | Final Project</title>
+        <link rel="stylesheet" href="shared.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+
+    body {
+                background-color: #f6f5f0;
+            }
+
+            h1 {
+                font-size: 10vw;
+                writing-mode: vertical-rl;
+            }
+            #header-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center; 
+            }
+            .one {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #wrapper {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px; 
+        width: 1200px;
+        height: 700px;
+    }
+
+            #header {
+        margin-right: 10px; 
+    }
+            h2{
+                font-family: 'Raleway', sans-serif;
+            }
+            h3{
+                font-family: 'Raleway', sans-serif;
+            }
+
+            #main {
+                background-color: #d7b3b6;
+                border: 1px solid lightblue;
+                padding: 15px;
+            }
+
+            #wrapper {
+                display: flex;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                width: 1200px;
+                height: 700px;
+            }
+
+            .pic {
+                display: block;
+                height: 400px;
+                width: auto;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            
+
+            figcaption {    
+                color: black;
+                font-style: italic;
+                padding: 2px;
+                text-align: center;
+                font-family: 'Raleway', sans-serif;
+            }
+        
+    .one {
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center; 
+        flex-direction: row;
+    }
+
+
+    .pic {
+        width: auto; 
+        height: 350px; 
+        margin: 10px; 
+    }
+    .pics{
+        width: auto;
+        height: 350px;
+        margin: 10px;
+    }
+
+
+    figcaption {
+        text-align: center; 
+        margin-top: 10px; 
+    }
+
+    .two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .album{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .pic {
+        width: auto; 
+        height: 350px; 
+        margin: 10px; 
+        transition: all 0.5s ease-in-out; 
+    }
+
+    .pic:hover {
+        transform: scale(1.1); 
+        opacity: 0.8; 
+    }
+
+        
+
+            .pic-container {
+                position: relative;
+            }
+
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5); 
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+                transition: opacity 0.5s ease-in-out;
+            }
+
+            .pic-container:hover .overlay {
+                opacity: 1;
+            }
+            #three{
+                display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .pic2{
+        width: auto; 
+        height: 350px; 
+        margin: 10px; 
+    }
+    .pic-container .overlay {
+            transition: all 1s;
+            transform: scale(2);
+            opacity: 0;
+        }
+
+        .pic-container:hover .overlay {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        .pic-container a {
+            transition: all 1s ease 0s;
+            opacity: 0;
+        }
+
+        .pic-container:hover a {
+            opacity: 1;
+            transition: all 1s ease 1s;
+        }
+    p{
+        font-family: 'Raleway', sans-serif;
+        font-size: large;
+        text-align: center;
+    }
+        </style>
+    </head>
+
+    <body>
+
+        <div id="nav-bar">
+            <ul>
+                <li><a href="finalpt1.html">Home</a></li>
+                <li><a href="people.html">People</a></li>
+                <li><a href="places2.html">Places</a></li>
+                <li><a href="projectsum.html"> Project Summary </a></li>
+            </ul>
+        </div>
+
+        <div class="one"> 
+            <div id="header-container">
+                <header id="header">
+                    <h1><strong>Places</strong></h1>
+                </header>
+
+                <h2> Where my favorite places are where: </h2>
+            </div>
+
+            <figure class="pic-container">
+                <img class="pic" src="img/family.jpeg" alt="airport window">
+                <figcaption>My family are </figcaption>
+            </figure>
+
+            <figure>
+                <img class="pic" src="img/travel.jpeg" alt="luggage">
+                <figcaption>I have happy memories </figcaption>
+            </figure>
+
+            <figure>
+                <img class="pic" src="img/home.jpeg" alt="plane window">
+                <figcaption>I feel at home</figcaption>
+            </figure>
+
+        </div>
+
+        <div class="two">
+            <h2> Places where my family are: </h2>
+            <h3> South Africa: my mom's side of the family lives here so I have many fond memories with them here. I also really enjoy going on the safari rides. </h3>
+            <div class="album">
+                <img class="pics" src="img/safari.jpeg" alt="safari truck">
+                <img class="pics" src="img/cousin.jpeg" alt="cousins">
+            </div>
+            <h3> England: My dad's side of the family lives in England. Similar to South Africa, I also have many fond memories here. England's rich history adds to its appeal</h3>
+            <div class="album">
+                <img class="pics" src="img/icecream.jpeg" alt=" uvlight">
+                <img class="pics" src="img/legoland.jpeg" alt="legoland">
+            </div>
+        </div>
+
+        <div class="two">
+            <h2> Places where I have happy memories: </h2>
+            <h3> Germany: I went to Germany over winter break 2019. On this trip I saw snow for the first time. Germany has such rich culture so it was really enriching to learn more and experience it first hand. This was also the last trip before COVID happened. </h3>
+        <div class="album">
+            <img class="pic2" src="img/ger1.jpeg" alt="family in park">
+            <img class="pic2" src="img/ger2.jpeg" alt="chapel">
+        </div>
+        <h3> New York City: In my first semester of college I visited my sister in NYC. I felt very overwhelmed by college and moving to a new country but seeing her made me feel happy and at home. Before this trip, I had already been to nyc before. The city is an exciting place to be and has something for every occasion. I also really enjoy how easy it is to walk everywhere. </h3>
+        <div class="album">
+            <img class="pic2" src="img/nyc.jpeg" alt="central park">
+            <img class="pic2" src="img/nyc2.jpeg" alt="NYC road">
+            
+        </div>
+    </div>
+        <div class="two">
+            <h2> Places where I feel at home: </h2>
+            <h3> Taiwan: I have spent the majority of my life in Taiwan and have family here. I lived here since I was 10. The people here are some of the most respectful and kind people I have met, building my values.  </h3>
+        <div class="album">
+            <img class="pic2" src="img/tw.jpeg" alt="beach">
+            <img class="pic2" src="img/twn.jpeg" alt="taipei 101">
+        </div>
+        <h3> USC: Despite feeling very foreign at first, after spending a whole year on campus I have grown to love the campus. The campus is very pretty and I have created friends that feel like my family now.  </h3>
+        <div class="album">
+            <img class="pic2" src="img/usc.jpeg" alt="building and sunset">
+            <img class="pic2" src="img/usc2.jpeg" alt="usc pathway">
+            
+        </div>
+    </div>
+        <p> All the places I have lived and traveled to have shaped me into the person I am today. I love to travel and explore and would love to live all over the world. <p>
+
+    
+
+
+
+
